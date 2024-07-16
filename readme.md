@@ -4,8 +4,7 @@ Wraps https://github.com/libreofficedocker/unoserver-rest-api for embedding imag
 
 WARNING: Currently no security implemented!
 
-usage
-
+## Usage
 
 Start the containers
 ```

@@ -10,9 +10,6 @@ import glob
 
 app = FastAPI()
 
-API_URL = "http://127.0.0.1:2004/request"
-OUTPUT_FILE = "file.html"
-
 
 def img_to_base64(img_path):
     """Convert image to base64 string."""

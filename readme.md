@@ -5,6 +5,14 @@ Wraps https://github.com/libreofficedocker/unoserver-rest-api for embedding imag
 WARNING: Currently no security implemented!
 
 usage
+
+
+Start the containers
+```
+docker-compose up --build
+```
+
+Make queries as you would to unoserver-rest-api
 ```bash
 curl -s -v \
    --request POST \

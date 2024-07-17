@@ -2,7 +2,9 @@
 
 Wraps https://github.com/libreofficedocker/unoserver-rest-api for embedding images into html.
 
-WARNING: Currently no security implemented!
+NOTE:
+- Currently no security implemented!
+- Default filter loses correct positions of images sometimes. XHML filter maintains the correct positions better but sometimes raises error.
 
 ## Usage
 

@@ -4,7 +4,7 @@ Wraps https://github.com/libreofficedocker/unoserver-rest-api for embedding imag
 
 NOTE:
 - Currently no security implemented!
-- Default filter loses correct positions of images sometimes. XHML filter maintains the correct positions better but sometimes raises error.
+- Default filter loses correct positions of images sometimes. XHML filter maintains the correct positions better but sometimes raises error. Good solution can be to use XHTML filter first and fall back to HTML filter.
 
 ## Usage
 
